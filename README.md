@@ -1,7 +1,7 @@
 # Анализ ресторанной выручки и BI-дашборды
 
 Tableau Public:  
-https://public.tableau.com/app/profile/rinat.tagirov4764/viz/restaurant_revenue_analysis_dashboards/DBExecutive1
+https://public.tableau.com/app/profile/rinat.tagirov4764/viz/restaurant_revenue_dashboards/Executive1
 
 ## Описание проекта
 
@@ -29,8 +29,7 @@ https://public.tableau.com/app/profile/rinat.tagirov4764/viz/restaurant_revenue_
 
 Сырые транзакционные данные были очищены и преобразованы с помощью:
 - Pandas;
-- SQL;
-- DuckDB.
+- SQL.
 
 Гранулярность исходных данных:
 
@@ -49,12 +48,6 @@ https://public.tableau.com/app/profile/rinat.tagirov4764/viz/restaurant_revenue_
 - анализа продуктов;
 - анализа поведения гостей;
 - анализа план/факт.
-
-Дополнительно исследовались:
-- взвешенные и обычные средние;
-- декомпозиция выручки;
-- влияние выбросов;
-- влияние гранулярности данных на метрики.
 
 ---
 
@@ -81,53 +74,15 @@ https://public.tableau.com/app/profile/rinat.tagirov4764/viz/restaurant_revenue_
 - длительность визитов;
 - декомпозиция выручки.
 
-Дополнительно разрабатываются:
-- анализ продуктов;
-- анализ поведения гостей;
-- план/факт.
+### Продукт
+- декомпозиция изменения выручки по категориям
+- классификация изменения выручки по категориям
 
 ---
 
-# Ключевые аналитические особенности
+# Назначение проекта
 
-Проект включает:
-- сравнение год к году;
-- декомпозицию выручки;
-- анализ пиковых часов;
-- тепловые карты;
-- анализ будней и выходных;
-- операционный анализ.
-
-Для анализа длительности визитов используется медиана вместо среднего из-за выбросов и асимметричного распределения.
-
----
-
-# Используемые инструменты
-
-- Pandas
-- SQL
-- Tableau
-
----
-
-# Текущий статус
-
-Готово:
-- общий обзор;
-- анализ каналов;
-- время и загрузка.
-
-В разработке:
-- анализ продуктов;
-- анализ поведения гостей;
-- план/факт;
-- финальная доработка дашбордов.
-
----
-
-# Бизнес-ценность
-
-Проект демонстрирует построение полноценной системы BI-аналитики для ресторанного бизнеса:
+Проект демонстрирует построение BI-аналитики для ресторанного бизнеса:
 - контроль выручки;
 - анализ каналов продаж;
 - анализ загрузки;
@@ -140,7 +95,7 @@ https://public.tableau.com/app/profile/rinat.tagirov4764/viz/restaurant_revenue_
 # Restaurant Revenue Analysis & BI Dashboards
 
 Tableau Public:  
-https://public.tableau.com/app/profile/rinat.tagirov4764/viz/restaurant_revenue_analysis_dashboards/DBExecutive1
+https://public.tableau.com/app/profile/rinat.tagirov4764/viz/restaurant_revenue_dashboards/Executive1
 
 ## Project Overview
 
@@ -168,8 +123,7 @@ The project includes:
 
 Raw transactional restaurant data was cleaned and transformed using:
 - Pandas;
-- SQL;
-- DuckDB.
+- SQL.
 
 Source data granularity:
 
@@ -187,12 +141,6 @@ Several analytical layers were built for:
 - product analytics;
 - guest behavior analysis;
 - plan vs fact analysis.
-
-The project also explores:
-- weighted vs arithmetic averages;
-- revenue decomposition;
-- outlier handling;
-- impact of data granularity on metrics.
 
 ---
 
@@ -219,53 +167,15 @@ Interactive Tableau dashboards were developed for:
 - visit duration analysis;
 - revenue decomposition.
 
-Additional dashboards in progress:
-- product analytics;
-- guest proxy analysis;
-- plan vs fact analysis.
+### Product
+- revenue change decomposition
+- revenue change classification
 
 ---
 
-# Key Analytical Features
+# Goal
 
-The project includes:
-- year-over-year comparison;
-- revenue decomposition;
-- peak hour analysis;
-- heatmap analysis;
-- weekday vs weekend analysis;
-- operational analysis.
-
-Median was used instead of mean for duration analysis because of skewed distributions and outliers.
-
----
-
-# Tools Used
-
-- Pandas
-- SQL
-- Tableau
-
----
-
-# Current Status
-
-Completed:
-- Executive Dashboard
-- Channel Analysis Dashboard
-- Time & Operations Dashboard
-
-In Progress:
-- Product Dashboard
-- Guest Proxy Dashboard
-- Plan vs Fact Dashboard
-- Final dashboard polishing
-
----
-
-# Business Value
-
-The project demonstrates the development of a complete BI analytics system for restaurant business including:
+The project demonstrates the development of BI analytics system for restaurant business including:
 - revenue monitoring;
 - sales channel analysis;
 - operational analytics;
